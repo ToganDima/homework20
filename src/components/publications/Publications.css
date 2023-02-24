@@ -1,0 +1,6 @@
+.posts-list {
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}

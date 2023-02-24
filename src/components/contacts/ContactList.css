@@ -1,0 +1,63 @@
+.contact-list {
+    height: 70vh;
+    overflow: auto;
+}
+
+.search-bar {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gender-check {
+    margin: 0 auto;
+    width: 335px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gender-check input {
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    border: 0.15em solid #007a7e;
+    cursor: pointer;
+}
+
+.gender-check span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #434347;
+}
+
+.search-input {
+    margin: 0 auto;
+    width: 335px;
+    height: 30px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+}
+
+.search-input input {
+    width: inherit;
+    margin-left: 5px;
+    font-size: 16px;
+    border: none;
+    color: #434347;
+    background-color: #EFEFEF;
+}
+
+.search-input input:focus {
+    outline: none;
+}

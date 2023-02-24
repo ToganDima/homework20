@@ -1,0 +1,45 @@
+.indicators {
+    position: relative;
+
+    width: 100%;
+    height: 44px;
+
+    padding: 0px 5px 0px 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #F6F6F6;
+}
+
+.status-moment {
+    font-weight: 600;
+}
+
+.notch {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 25px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    background-color: black;
+}
+
+.status-right img {
+    margin: 0px 2px;
+}
+
+.home-title {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F6F6F6;
+}

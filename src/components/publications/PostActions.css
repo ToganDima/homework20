@@ -1,0 +1,22 @@
+.post-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #c4c4c4;
+}
+
+.post-actions div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-actions span {
+    margin-left: 5px;
+}
+
+.post-actions img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

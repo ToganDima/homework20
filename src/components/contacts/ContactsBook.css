@@ -1,0 +1,8 @@
+.contacts-book {
+    position: relative;
+    width: 380px;
+    height: 96vh;
+    margin: 2vh auto;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}

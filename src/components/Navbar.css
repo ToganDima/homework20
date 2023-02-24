@@ -1,0 +1,29 @@
+.navbar {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom:  1px solid rgb(207, 195, 195);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: brown;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: 400 !important;
+}
